@@ -1,0 +1,58 @@
+{
+  "name": "electron-starterkit",
+  "version": "0.0.0",
+  "main": "index.js",
+  "description": "a ready-to-use Electron boilerplate",
+  "license": "MIT",
+  "repository": "https://github.com/Alireza29675/electron-starterkit",
+  "author": {
+    "name": "Alireza Sheikholmolouki",
+    "email": "alireza.sheikholmolouki@gmail.com",
+    "url": "https://sheikholmolouki.com"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dev": "gulp serve",
+    "test": "xo",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "keywords": [
+    "electron-app",
+    "electron"
+  ],
+  "dependencies": {
+    "electron-connect": "^0.6.2",
+    "electron-debug": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "css-loader": "^0.28.7",
+    "devtron": "^1.1.0",
+    "electron": "^1.7.9",
+    "electron-packager": "^8.0.0",
+    "electron-prebuilt": "^1.4.13",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gutil": "^1.6.4",
+    "node-sass": "^4.5.3",
+    "nodemon": "^1.12.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
